@@ -1,7 +1,0 @@
-[functions]
-  # 强制指定日本东京机房
-  region = "ap-northeast-1"
-
-[build]
-  # 确保发布路径为根目录，且没有任何多余的 "Co" 字符
-  publish = "."
