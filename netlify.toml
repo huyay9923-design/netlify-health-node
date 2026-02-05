@@ -1,0 +1,6 @@
+[functions]
+  # 指定日本东京机房 (AWS ap-northeast-1)
+  region = "ap-northeast-1"
+
+[build]
+  publish = "."
