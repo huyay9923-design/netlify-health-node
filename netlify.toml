@@ -1,0 +1,12 @@
+[functions]
+  # 强制指定日本东京机房
+  region = "ap-northeast-1"
+
+[[redirects]]
+  # 实现访问 域名/123 直接跳转到节点提取脚本
+  from = "/123"
+  to = "/.netlify/functions/vless/123"
+  status = 200
+
+[build]
+  publish = "."
