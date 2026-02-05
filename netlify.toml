@@ -1,5 +1,0 @@
-[functions]
-region = "ap-northeast-1"
-
-[build]
-publish = "."
