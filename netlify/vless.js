@@ -1,5 +1,8 @@
+/**
+ * 完整修改后的代码 - 默认环境版
+ */
 const UUID = 'd342d11e-d424-4583-b36e-524ab1f0afa4'; 
-const NODE_NAME = 'Netlify-Japan-Standard';
+const NODE_NAME = 'Netlify-Node-Auto';
 
 exports.handler = async function(event, context) {
     const host = event.headers.host;
@@ -13,7 +16,7 @@ exports.handler = async function(event, context) {
             "Content-Type": "text/plain; charset=utf-8",
             "Access-Control-Allow-Origin": "*" 
         },
-        // 使用 Base64 编码输出，方便小火箭识别
+        // 输出 Base64 编码方便导入
         body: btoa(vlessLink)
     };
 };
